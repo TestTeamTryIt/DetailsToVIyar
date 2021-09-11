@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="2170" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="24538" name="ХДФ Pfleiderer 2201 Білий (2850х2070х3)" width="3000" height="3000" thickness="3" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="628.5" height="393.0" multiplicity="1" grain="1" description="01.00.20.ТИЛ-ЛІВ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="628.5" height="402.0" multiplicity="1" grain="1" description="01.00.21.ТИЛ-ПРАВ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+</details>
+<products>
+<product id="1" article="956.1004" name="TIP-ON blum короткий" amount="4" />
+<product id="2" article="18018" name="Врезной демпфер Bi-materiale Italiana Ferramenta d=5, 100шт" amount="14" />
+<product id="3" article="38877" name="Шкант 8х30 мм" amount="49" />
+<product id="4" article="38879" name="Шкант 8х60 мм" amount="4" />
+<product id="5" article="52559" name="Конфірмат 7х50 мм" amount="52" />
+<product id="6" article="59653" name="Подвес под запрессовку с фикс. от опрокид.807.02 Z2, правый CAMAR" amount="5" />
+<product id="7" article="59654" name="Подвес под запрессовку с фикс. от опрокид.807.02 Z2, левый CAMAR" amount="4" />
+<product id="8" article="59655" name="Заглушка для підвісу 807, біла, ліва CAMAR" amount="4" />
+<product id="9" article="59656" name="Заглушка для підвісу 807, біла, права CAMAR" amount="5" />
+<product id="10" article="59676" name="Шина для навісу 801 і 807 з засувкою, 60 мм CAMAR" amount="9" />
+<product id="11" article="79056" name="Саморізи оцинковані 4,0 х 30 мм цинк білий" amount="8" />
+<product id="12" article="113029" name="Кошик для білизни 400мм  W=330 L=250 H=580 білий" amount="1" />
+</products>
+</viyar>
+</project>

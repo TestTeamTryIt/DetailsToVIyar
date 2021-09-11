@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DetailsToViyar.exe" version="1.0.0.0" publicKeyToken="5274cb646ac0d6f3" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DetailsToViyar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DetailsToViyar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DetailsToViyar.exe" size="12728">
+      <assemblyIdentity name="DetailsToViyar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>dGf/Qp5MwfIraCN9UzVZHQBDTYEYh4gZcCkDNC5Ij7o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DetailsToViyar.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ARCHIMAX\mihai" issuerKeyHash="5ac4e661594205ccf257479bf0fccc4d820c1693" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HB7AYkl+2s1Eap3m5DE1yQgrIwF28g3BIZqjFV7ddZY=</DigestValue></Reference></SignedInfo><SignatureValue>e/xel4QOArIAGEIWyDqZV4L8yL3zys3iq67BgC15B2UMkmKjKNl3cVrrp3xqjblOD4EVWkcDcpzsNeXRklIWxs3c0bA9GNnr9T8AZEtoCRRiSsD7ktkKXrdK2aMjVqtfstPsRlsMXRMO5y2pIW6ktJtgM7JCS9WBrsdSc/pSZsA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tb9qDFmBnLf/aXnZ2WZb3a1djCiEgW6JJ97nnDYY/8BtgfImA9eFhCOmoh7bT2GAC2mcsLhoAB4HfyltMRrKgaNMyGQZoRrZhFk/XV+GvTQECIcx/5eFCS2I/mjC2SynYaVR8C1d2zQweZ0KB6gBPAiQArm7KPuEHhSO+LPWPuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9675dd5e15a39a21c10df27601232b08c93531e4e69d6a44cdda7e4962c01e1c" Description="" Url=""><as:assemblyIdentity name="DetailsToViyar.exe" version="1.0.0.0" publicKeyToken="5274cb646ac0d6f3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ARCHIMAX\mihai</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>d9zHV1H9pjz4oqnjeL6mKnAEEkrZMsGeInGmNilbETw=</DigestValue></Reference></SignedInfo><SignatureValue>Sdtz94FUiId7LY7p0JJZPQo+rCk3uopZ/3xaAqw24jvJz6UW48fApunJMA0fa+eIOFFAgK6x4YR6Agr7ASX8d1gLiwcn7MixerIICUH6bwTiFQIJu9MVbxC8ekFEgdEF5x5RoTSUkz1QSciI958Km2nXTQTAA6L9cQyKZDfC77o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tb9qDFmBnLf/aXnZ2WZb3a1djCiEgW6JJ97nnDYY/8BtgfImA9eFhCOmoh7bT2GAC2mcsLhoAB4HfyltMRrKgaNMyGQZoRrZhFk/XV+GvTQECIcx/5eFCS2I/mjC2SynYaVR8C1d2zQweZ0KB6gBPAiQArm7KPuEHhSO+LPWPuE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQTX4rAq4MV6JF3LhVycJL2DANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBSAEMASABJAE0AQQBYAFwAbQBpAGgAYQBpMB4XDTIxMDkwNDIyMjc1NVoXDTIyMDkwNTA0Mjc1NVowJzElMCMGA1UEAx4cAEEAUgBDAEgASQBNAEEAWABcAG0AaQBoAGEAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtb9qDFmBnLf/aXnZ2WZb3a1djCiEgW6JJ97nnDYY/8BtgfImA9eFhCOmoh7bT2GAC2mcsLhoAB4HfyltMRrKgaNMyGQZoRrZhFk/XV+GvTQECIcx/5eFCS2I/mjC2SynYaVR8C1d2zQweZ0KB6gBPAiQArm7KPuEHhSO+LPWPuECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAT8NdmqFIAvlKdQTOYajkMs+YaT6sSeAdaE24C1sfHPZmj6Z2rMLYp46NRtWw3w4quH8gsuORiyKZXeOiiayy/QMUc953QBFsqNSPDa1y7hKIyksPH4CVW5ssQHCRgVvz9XQ36kc6QNnqu91eiOWwphds4v0r89OQDqeoLxtHNVw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
